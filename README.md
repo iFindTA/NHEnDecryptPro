@@ -3,7 +3,7 @@
 ###用法AES：
 ```
 NSString *aeskey = NHSSLUtil->aesGenerateKey();
-    NSString *aesRet = NHSSLUtil->aesEncrypt(info,aeskey);
+NSString *aesRet = NHSSLUtil->aesEncrypt(info,aeskey);
 ```
 ###用法RSA：
 ```
