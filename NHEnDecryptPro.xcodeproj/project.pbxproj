@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C9C87C1BA82200007EEACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C87B1BA82200007EEACD /* main.m */; };
+		60C9C87F1BA82200007EEACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C87E1BA82200007EEACD /* AppDelegate.m */; };
+		60C9C8821BA82200007EEACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C8811BA82200007EEACD /* ViewController.m */; };
+		60C9C8851BA82200007EEACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C9C8831BA82200007EEACD /* Main.storyboard */; };
+		60C9C8871BA82200007EEACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C9C8861BA82200007EEACD /* Images.xcassets */; };
+		60C9C88A1BA82200007EEACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C9C8881BA82200007EEACD /* LaunchScreen.xib */; };
+		60C9C8961BA82200007EEACD /* NHEnDecryptProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C8951BA82200007EEACD /* NHEnDecryptProTests.m */; };
+		60C9C8A81BA82225007EEACD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C8A21BA82225007EEACD /* GTMBase64.m */; };
+		60C9C8A91BA82225007EEACD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C8A41BA82225007EEACD /* README.md */; };
+		60C9C8AA1BA82225007EEACD /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C9C8A51BA82225007EEACD /* libssl.a */; };
+		60C9C8AB1BA82225007EEACD /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 60C9C8A71BA82225007EEACD /* public_key.der */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C9C8901BA82200007EEACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C9C86E1BA82200007EEACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C9C8751BA82200007EEACD;
+			remoteInfo = NHEnDecryptPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60C9C8761BA82200007EEACD /* NHEnDecryptPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHEnDecryptPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C9C87A1BA82200007EEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C9C87B1BA82200007EEACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60C9C87D1BA82200007EEACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60C9C87E1BA82200007EEACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60C9C8801BA82200007EEACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60C9C8811BA82200007EEACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60C9C8841BA82200007EEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C9C8861BA82200007EEACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60C9C8891BA82200007EEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		60C9C88F1BA82200007EEACD /* NHEnDecryptProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHEnDecryptProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C9C8941BA82200007EEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C9C8951BA82200007EEACD /* NHEnDecryptProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHEnDecryptProTests.m; sourceTree = "<group>"; };
+		60C9C8A11BA82225007EEACD /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		60C9C8A21BA82225007EEACD /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		60C9C8A31BA82225007EEACD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		60C9C8A41BA82225007EEACD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		60C9C8A51BA82225007EEACD /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		60C9C8A61BA82225007EEACD /* NHSSLCImpPro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSSLCImpPro.h; sourceTree = "<group>"; };
+		60C9C8A71BA82225007EEACD /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C9C8731BA82200007EEACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C9C8AA1BA82225007EEACD /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C9C88C1BA82200007EEACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C9C86D1BA82200007EEACD = {
+			isa = PBXGroup;
+			children = (
+				60C9C8781BA82200007EEACD /* NHEnDecryptPro */,
+				60C9C8921BA82200007EEACD /* NHEnDecryptProTests */,
+				60C9C8771BA82200007EEACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C9C8771BA82200007EEACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C8761BA82200007EEACD /* NHEnDecryptPro.app */,
+				60C9C88F1BA82200007EEACD /* NHEnDecryptProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C9C8781BA82200007EEACD /* NHEnDecryptPro */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C89F1BA82225007EEACD /* Security */,
+				60C9C87D1BA82200007EEACD /* AppDelegate.h */,
+				60C9C87E1BA82200007EEACD /* AppDelegate.m */,
+				60C9C8801BA82200007EEACD /* ViewController.h */,
+				60C9C8811BA82200007EEACD /* ViewController.m */,
+				60C9C8831BA82200007EEACD /* Main.storyboard */,
+				60C9C8861BA82200007EEACD /* Images.xcassets */,
+				60C9C8881BA82200007EEACD /* LaunchScreen.xib */,
+				60C9C8791BA82200007EEACD /* Supporting Files */,
+			);
+			path = NHEnDecryptPro;
+			sourceTree = "<group>";
+		};
+		60C9C8791BA82200007EEACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C87A1BA82200007EEACD /* Info.plist */,
+				60C9C87B1BA82200007EEACD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60C9C8921BA82200007EEACD /* NHEnDecryptProTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C8951BA82200007EEACD /* NHEnDecryptProTests.m */,
+				60C9C8931BA82200007EEACD /* Supporting Files */,
+			);
+			path = NHEnDecryptProTests;
+			sourceTree = "<group>";
+		};
+		60C9C8931BA82200007EEACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C8941BA82200007EEACD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60C9C89F1BA82225007EEACD /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C8A01BA82225007EEACD /* GTMBase64 */,
+				60C9C8A51BA82225007EEACD /* libssl.a */,
+				60C9C8A61BA82225007EEACD /* NHSSLCImpPro.h */,
+				60C9C8A71BA82225007EEACD /* public_key.der */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		60C9C8A01BA82225007EEACD /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				60C9C8A11BA82225007EEACD /* GTMBase64.h */,
+				60C9C8A21BA82225007EEACD /* GTMBase64.m */,
+				60C9C8A31BA82225007EEACD /* GTMDefines.h */,
+				60C9C8A41BA82225007EEACD /* README.md */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C9C8751BA82200007EEACD /* NHEnDecryptPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C9C8991BA82200007EEACD /* Build configuration list for PBXNativeTarget "NHEnDecryptPro" */;
+			buildPhases = (
+				60C9C8721BA82200007EEACD /* Sources */,
+				60C9C8731BA82200007EEACD /* Frameworks */,
+				60C9C8741BA82200007EEACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHEnDecryptPro;
+			productName = NHEnDecryptPro;
+			productReference = 60C9C8761BA82200007EEACD /* NHEnDecryptPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60C9C88E1BA82200007EEACD /* NHEnDecryptProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C9C89C1BA82200007EEACD /* Build configuration list for PBXNativeTarget "NHEnDecryptProTests" */;
+			buildPhases = (
+				60C9C88B1BA82200007EEACD /* Sources */,
+				60C9C88C1BA82200007EEACD /* Frameworks */,
+				60C9C88D1BA82200007EEACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C9C8911BA82200007EEACD /* PBXTargetDependency */,
+			);
+			name = NHEnDecryptProTests;
+			productName = NHEnDecryptProTests;
+			productReference = 60C9C88F1BA82200007EEACD /* NHEnDecryptProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C9C86E1BA82200007EEACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "hu jiaju";
+				TargetAttributes = {
+					60C9C8751BA82200007EEACD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					60C9C88E1BA82200007EEACD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 60C9C8751BA82200007EEACD;
+					};
+				};
+			};
+			buildConfigurationList = 60C9C8711BA82200007EEACD /* Build configuration list for PBXProject "NHEnDecryptPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C9C86D1BA82200007EEACD;
+			productRefGroup = 60C9C8771BA82200007EEACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C9C8751BA82200007EEACD /* NHEnDecryptPro */,
+				60C9C88E1BA82200007EEACD /* NHEnDecryptProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C9C8741BA82200007EEACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C9C8851BA82200007EEACD /* Main.storyboard in Resources */,
+				60C9C88A1BA82200007EEACD /* LaunchScreen.xib in Resources */,
+				60C9C8AB1BA82225007EEACD /* public_key.der in Resources */,
+				60C9C8871BA82200007EEACD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C9C88D1BA82200007EEACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C9C8721BA82200007EEACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C9C8821BA82200007EEACD /* ViewController.m in Sources */,
+				60C9C87F1BA82200007EEACD /* AppDelegate.m in Sources */,
+				60C9C8A91BA82225007EEACD /* README.md in Sources */,
+				60C9C87C1BA82200007EEACD /* main.m in Sources */,
+				60C9C8A81BA82225007EEACD /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C9C88B1BA82200007EEACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C9C8961BA82200007EEACD /* NHEnDecryptProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60C9C8911BA82200007EEACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C9C8751BA82200007EEACD /* NHEnDecryptPro */;
+			targetProxy = 60C9C8901BA82200007EEACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60C9C8831BA82200007EEACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C9C8841BA82200007EEACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C9C8881BA82200007EEACD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C9C8891BA82200007EEACD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C9C8971BA82200007EEACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60C9C8981BA82200007EEACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C9C89A1BA82200007EEACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHEnDecryptPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHEnDecryptPro/Security",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60C9C89B1BA82200007EEACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHEnDecryptPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHEnDecryptPro/Security",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60C9C89D1BA82200007EEACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NHEnDecryptProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHEnDecryptPro.app/NHEnDecryptPro";
+			};
+			name = Debug;
+		};
+		60C9C89E1BA82200007EEACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NHEnDecryptProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHEnDecryptPro.app/NHEnDecryptPro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C9C8711BA82200007EEACD /* Build configuration list for PBXProject "NHEnDecryptPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C9C8971BA82200007EEACD /* Debug */,
+				60C9C8981BA82200007EEACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C9C8991BA82200007EEACD /* Build configuration list for PBXNativeTarget "NHEnDecryptPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C9C89A1BA82200007EEACD /* Debug */,
+				60C9C89B1BA82200007EEACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60C9C89C1BA82200007EEACD /* Build configuration list for PBXNativeTarget "NHEnDecryptProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C9C89D1BA82200007EEACD /* Debug */,
+				60C9C89E1BA82200007EEACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C9C86E1BA82200007EEACD /* Project object */;
+}
