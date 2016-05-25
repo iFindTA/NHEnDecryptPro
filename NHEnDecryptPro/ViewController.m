@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "NHSSLCImpPro.h"
+#import "NHCryptor.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong)UITextField *textFD;
-@property (nonatomic, strong)UILabel *aesLabel,*rsaLabel;
+@property (nonatomic, strong)UILabel *scoreLabel,*aesLabel,*rsaLabel;
 
 @end
 
@@ -31,6 +31,17 @@
     
     infoRect.origin.y += 40;
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = infoRect;
+    [btn setTitle:@"密码 得分" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(scoreEvent) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    infoRect.origin.y += 40;
+    _scoreLabel = [[UILabel alloc] initWithFrame:infoRect];
+    [self.view addSubview:_scoreLabel];
+    
+    infoRect.origin.y += 40;
+    btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = infoRect;
     [btn setTitle:@"AES 加密" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -56,14 +67,23 @@
     [self.view endEditing:true];
 }
 
+- (void)scoreEvent {
+    NSString *info = _textFD.text;
+    if (info.length <= 0) {
+        return;
+    }
+    int score = NHSSLKit->score_passphrase([info UTF8String]);
+    _scoreLabel.text = [NSString stringWithFormat:@"密码强度得分: %d",score];
+}
+
 - (void)aesEncrypt{
     
     NSString *info = _textFD.text;
     if (info.length <= 0) {
         return;
     }
-    NSString *aeskey = NHSSLUtil->aesGenerateKey();
-    NSString *aesRet = NHSSLUtil->aesEncrypt(info,aeskey);
+    NSString *aeskey = NHSSLKit->aesGenerateKey();
+    NSString *aesRet = NHSSLKit->aesEncrypt(info,aeskey);
     _aesLabel.text = aesRet;
 }
 
@@ -72,7 +92,7 @@
     if (info.length <= 0) {
         return;
     }
-    NSString *rsaRet = NHSSLUtil->rsaEncrypt(info);
+    NSString *rsaRet = NHSSLKit->rsaEncrypt(info);
     _rsaLabel.text = rsaRet;
 }
 

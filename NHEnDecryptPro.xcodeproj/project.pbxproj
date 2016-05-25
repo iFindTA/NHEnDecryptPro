@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601EF5C51CF544ED00D62A98 /* NHCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 601EF5C41CF544ED00D62A98 /* NHCryptor.m */; };
 		60C9C87C1BA82200007EEACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C87B1BA82200007EEACD /* main.m */; };
 		60C9C87F1BA82200007EEACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C87E1BA82200007EEACD /* AppDelegate.m */; };
 		60C9C8821BA82200007EEACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C8811BA82200007EEACD /* ViewController.m */; };
@@ -14,10 +15,9 @@
 		60C9C8871BA82200007EEACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C9C8861BA82200007EEACD /* Images.xcassets */; };
 		60C9C88A1BA82200007EEACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C9C8881BA82200007EEACD /* LaunchScreen.xib */; };
 		60C9C8961BA82200007EEACD /* NHEnDecryptProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C9C8951BA82200007EEACD /* NHEnDecryptProTests.m */; };
-		60C9C8AA1BA82225007EEACD /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C9C8A51BA82225007EEACD /* libssl.a */; };
-		60E14D5F1BB91EF3001B06FA /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E14D5B1BB91EF3001B06FA /* GTMBase64.m */; settings = {ASSET_TAGS = (); }; };
-		60E14D601BB91EF3001B06FA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 60E14D5D1BB91EF3001B06FA /* README.md */; settings = {ASSET_TAGS = (); }; };
-		60E14D611BB91EF3001B06FA /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 60E14D5E1BB91EF3001B06FA /* public_key.der */; settings = {ASSET_TAGS = (); }; };
+		60E14D5F1BB91EF3001B06FA /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E14D5B1BB91EF3001B06FA /* GTMBase64.m */; };
+		60E14D601BB91EF3001B06FA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 60E14D5D1BB91EF3001B06FA /* README.md */; };
+		60E14D611BB91EF3001B06FA /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 60E14D5E1BB91EF3001B06FA /* public_key.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601EF5C31CF544ED00D62A98 /* NHCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCryptor.h; sourceTree = "<group>"; };
+		601EF5C41CF544ED00D62A98 /* NHCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCryptor.m; sourceTree = "<group>"; };
 		60C9C8761BA82200007EEACD /* NHEnDecryptPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHEnDecryptPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C9C87A1BA82200007EEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C9C87B1BA82200007EEACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,8 +46,6 @@
 		60C9C88F1BA82200007EEACD /* NHEnDecryptProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHEnDecryptProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C9C8941BA82200007EEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C9C8951BA82200007EEACD /* NHEnDecryptProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHEnDecryptProTests.m; sourceTree = "<group>"; };
-		60C9C8A51BA82225007EEACD /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		60C9C8A61BA82225007EEACD /* NHSSLCImpPro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSSLCImpPro.h; sourceTree = "<group>"; };
 		60E14D5A1BB91EF3001B06FA /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		60E14D5B1BB91EF3001B06FA /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		60E14D5C1BB91EF3001B06FA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -58,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C9C8AA1BA82225007EEACD /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +135,8 @@
 		60C9C89F1BA82225007EEACD /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				60C9C8A51BA82225007EEACD /* libssl.a */,
-				60C9C8A61BA82225007EEACD /* NHSSLCImpPro.h */,
+				601EF5C31CF544ED00D62A98 /* NHCryptor.h */,
+				601EF5C41CF544ED00D62A98 /* NHCryptor.m */,
 			);
 			path = Security;
 			sourceTree = "<group>";
@@ -266,6 +265,7 @@
 				60C9C8821BA82200007EEACD /* ViewController.m in Sources */,
 				60C9C87F1BA82200007EEACD /* AppDelegate.m in Sources */,
 				60E14D601BB91EF3001B06FA /* README.md in Sources */,
+				601EF5C51CF544ED00D62A98 /* NHCryptor.m in Sources */,
 				60C9C87C1BA82200007EEACD /* main.m in Sources */,
 				60E14D5F1BB91EF3001B06FA /* GTMBase64.m in Sources */,
 			);
